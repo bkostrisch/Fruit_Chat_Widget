@@ -1,0 +1,290 @@
+{
+    "firstUserColor": {
+        "label": "Text Color",
+        "type": "colorpicker",
+        "value": "#a16cd9",
+        "group": "♥ First Bubble Settings ♥"
+    },
+    "firstUserBackground": {
+        "label": "Background Color",
+        "type": "colorpicker",
+        "value": "#FFF",
+        "group": "♥ First Bubble Settings ♥"
+    },
+    "firstMessageColor": {
+        "label": "Text Color",
+        "type": "colorpicker",
+        "value": "#FFF",
+        "group": "♥ First Bubble Settings ♥"
+    },
+    "firstMessageBackground": {
+        "label": "Background Color",
+        "type": "colorpicker",
+        "value": "#c8a0f2",
+        "group": "♥ First Bubble Settings ♥"
+    },
+    "firstBubbleFruit": {
+        "label": "First Fruit",
+        "type": "dropdown",
+        "options": {
+            "https://i.ibb.co/k24CksY/Grape.png": "Grape",
+            "https://i.ibb.co/bQXzRvm/Blueberrie.png": "Blueberry",
+            "https://i.ibb.co/3zNm6qr/Strawberries.png": "Strawberry",
+            "https://i.ibb.co/pXLPbk5/Peach.png": "Peach",
+            "https://i.ibb.co/dcmrtzR/Pineapple.png": "Pineapple",
+            "https://i.ibb.co/8mc941q/Lemon.png": "Lemon"
+        },
+        "value": "https://i.ibb.co/k24CksY/Grape.png",
+        "group": "♥ First Bubble Settings ♥"
+    },
+    "firstFruitUsage": {
+        "label": "Fruit Visibility",
+        "type": "dropdown",
+        "options": {
+            "visible": "ON",
+            "hidden": "OFF"
+        },
+        "value": "visible",
+        "group": "♥ First Bubble Settings ♥"
+    },
+    "secondUserColor": {
+        "label": "Text Color",
+        "type": "colorpicker",
+        "value": "#a0aef2",
+        "group": "♥ Second Bubble Settings ♥"
+    },
+    "secondUserBackground": {
+        "label": "Background Color",
+        "type": "colorpicker",
+        "value": "#FFFFFF",
+        "group": "♥ Second Bubble Settings ♥"
+    },
+    "secondMessageColor": {
+        "label": "Text Color",
+        "type": "colorpicker",
+        "value": "#FFFFFF",
+        "group": "♥ Second Bubble Settings ♥"
+    },
+    "secondMessageBackground": {
+        "label": "Background Color",
+        "type": "colorpicker",
+        "value": "#a0aef2",
+        "group": "♥ Second Bubble Settings ♥"
+    },
+    "secondBubbleFruit": {
+        "label": "Second Fruit",
+        "type": "dropdown",
+        "options": {
+            "https://i.ibb.co/k24CksY/Grape.png": "Grape",
+            "https://i.ibb.co/bQXzRvm/Blueberrie.png": "Blueberry",
+            "https://i.ibb.co/3zNm6qr/Strawberries.png": "Strawberry",
+            "https://i.ibb.co/pXLPbk5/Peach.png": "Peach",
+            "https://i.ibb.co/dcmrtzR/Pineapple.png": "Pineapple",
+            "https://i.ibb.co/8mc941q/Lemon.png": "Lemon"
+        },
+        "value": "https://i.ibb.co/bQXzRvm/Blueberrie.png",
+        "group": "♥ Second Bubble Settings ♥"
+    },
+    "secondFruitUsage": {
+        "label": "Fruit Visibility",
+        "type": "dropdown",
+        "options": {
+            "visible": "ON",
+            "hidden": "OFF"
+        },
+        "value": "visible",
+        "group": "♥ Second Bubble Settings ♥"
+    },
+    "thirdUserColor": {
+        "label": "Text Color",
+        "type": "colorpicker",
+        "value": "#f2a0b4",
+        "group": "♥ Third Bubble Settings ♥"
+    },
+    "thirdUserBackground": {
+        "label": "Background Color",
+        "type": "colorpicker",
+        "value": "#FFFFFF",
+        "group": "♥ Third Bubble Settings ♥"
+    },
+    "thirdMessageColor": {
+        "label": "Text Color",
+        "type": "colorpicker",
+        "value": "#FFFFFF",
+        "group": "♥ Third Bubble Settings ♥"
+    },
+    "thirdMessageBackground": {
+        "label": "Background Color",
+        "type": "colorpicker",
+        "value": "#f2a0b4",
+        "group": "♥ Third Bubble Settings ♥"
+    },
+    "thirdBubbleFruit": {
+        "label": "Third Fruit",
+        "type": "dropdown",
+        "options": {
+            "https://i.ibb.co/k24CksY/Grape.png": "Grape",
+            "https://i.ibb.co/bQXzRvm/Blueberrie.png": "Blueberry",
+            "https://i.ibb.co/3zNm6qr/Strawberries.png": "Strawberry",
+            "https://i.ibb.co/pXLPbk5/Peach.png": "Peach",
+            "https://i.ibb.co/dcmrtzR/Pineapple.png": "Pineapple",
+            "https://i.ibb.co/8mc941q/Lemon.png": "Lemon"
+        },
+        "value": "https://i.ibb.co/3zNm6qr/Strawberries.png",
+        "group": "♥ Third Bubble Settings ♥"
+    },
+    "thirdFruitUsage": {
+        "label": "Fruit Visibility",
+        "type": "dropdown",
+        "options": {
+            "visible": "ON",
+            "hidden": "OFF"
+        },
+        "value": "visible",
+        "group": "♥ Third Bubble Settings ♥"
+    },
+    "fourthUserColor": {
+        "label": "Text Color",
+        "type": "colorpicker",
+        "value": "#f2b6a0",
+        "group": "♥ Fourth Bubble Settings ♥"
+    },
+    "fourthUserBackground": {
+        "label": "Background Color",
+        "type": "colorpicker",
+        "value": "#FFFFFF",
+        "group": "♥ Fourth Bubble Settings ♥"
+    },
+    "fourthMessageColor": {
+        "label": "Text Color",
+        "type": "colorpicker",
+        "value": "#FFFFFF",
+        "group": "♥ Fourth Bubble Settings ♥"
+    },
+    "fourthMessageBackground": {
+        "label": "Background Color",
+        "type": "colorpicker",
+        "value": "#f2b6a0",
+        "group": "♥ Fourth Bubble Settings ♥"
+    },
+    "fourthBubbleFruit": {
+        "label": "Fourth Fruit",
+        "type": "dropdown",
+        "options": {
+            "https://i.ibb.co/k24CksY/Grape.png": "Grape",
+            "https://i.ibb.co/bQXzRvm/Blueberrie.png": "Blueberry",
+            "https://i.ibb.co/3zNm6qr/Strawberries.png": "Strawberry",
+            "https://i.ibb.co/pXLPbk5/Peach.png": "Peach",
+            "https://i.ibb.co/dcmrtzR/Pineapple.png": "Pineapple",
+            "https://i.ibb.co/8mc941q/Lemon.png": "Lemon"
+        },
+        "value": "https://i.ibb.co/pXLPbk5/Peach.png",
+        "group": "♥ Fourth Bubble Settings ♥"
+    },
+    "fourthFruitUsage": {
+        "label": "Fruit Visibility",
+        "type": "dropdown",
+        "options": {
+            "visible": "ON",
+            "hidden": "OFF"
+        },
+        "value": "visible",
+        "group": "♥ Fourth Bubble Settings ♥"
+    },
+    "fifithUserColor": {
+        "label": "Text Color",
+        "type": "colorpicker",
+        "value": "#ffcb9e",
+        "group": "♥ Fifth Bubble Settings ♥"
+    },
+    "fifthUserBackground": {
+        "label": "Background Color",
+        "type": "colorpicker",
+        "value": "#FFFFFF",
+        "group": "♥ Fifth Bubble Settings ♥"
+    },
+    "fifthMessageColor": {
+        "label": "Text Color",
+        "type": "colorpicker",
+        "value": "#FFFFFF",
+        "group": "♥ Fifth Bubble Settings ♥"
+    },
+    "fifthMessageBackground": {
+        "label": "Background Color",
+        "type": "colorpicker",
+        "value": "#ffcb9e",
+        "group": "♥ Fifth Bubble Settings ♥"
+    },
+    "fifthBubbleFruit": {
+        "label": "Fifth Fruit",
+        "type": "dropdown",
+        "options": {
+            "https://i.ibb.co/k24CksY/Grape.png": "Grape",
+            "https://i.ibb.co/bQXzRvm/Blueberrie.png": "Blueberry",
+            "https://i.ibb.co/3zNm6qr/Strawberries.png": "Strawberry",
+            "https://i.ibb.co/pXLPbk5/Peach.png": "Peach",
+            "https://i.ibb.co/dcmrtzR/Pineapple.png": "Pineapple",
+            "https://i.ibb.co/8mc941q/Lemon.png": "Lemon"
+        },
+        "value": "https://i.ibb.co/dcmrtzR/Pineapple.png",
+        "group": "♥ Fifth Bubble Settings ♥"
+    },
+    "fifthFruitUsage": {
+        "label": "Fruit Visibility",
+        "type": "dropdown",
+        "options": {
+            "visible": "ON",
+            "hidden": "OFF"
+        },
+        "value": "visible",
+        "group": "♥ Fifth Bubble Settings ♥"
+    },
+    "sixthUserColor": {
+        "label": "Text Color",
+        "type": "colorpicker",
+        "value": "#f2e2a0",
+        "group": "♥ Sixth Bubble Settings ♥"
+    },
+    "sixthUserBackground": {
+        "label": "Background Color",
+        "type": "colorpicker",
+        "value": "#FFFFFF",
+        "group": "♥ Sixth Bubble Settings ♥"
+    },
+    "sixthMessageColor": {
+        "label": "Text Color",
+        "type": "colorpicker",
+        "value": "#FFFFFF",
+        "group": "♥ Sixth Bubble Settings ♥"
+    },
+    "sixthMessageBackground": {
+        "label": "Background Color",
+        "type": "colorpicker",
+        "value": "#f2e2a0",
+        "group": "♥ Sixth Bubble Settings ♥"
+    },
+    "sixthBubbleFruit": {
+        "label": "Sixth Fruit",
+        "type": "dropdown",
+        "options": {
+            "https://i.ibb.co/k24CksY/Grape.png": "Grape",
+            "https://i.ibb.co/bQXzRvm/Blueberrie.png": "Blueberry",
+            "https://i.ibb.co/3zNm6qr/Strawberries.png": "Strawberry",
+            "https://i.ibb.co/pXLPbk5/Peach.png": "Peach",
+            "https://i.ibb.co/dcmrtzR/Pineapple.png": "Pineapple",
+            "https://i.ibb.co/8mc941q/Lemon.png": "Lemon"
+        },
+        "value": "https://i.ibb.co/8mc941q/Lemon.png",
+        "group": "♥ Sixth Bubble Settings ♥"
+    },
+    "sixthFruitUsage": {
+        "label": "Fruit Visibility",
+        "type": "dropdown",
+        "options": {
+            "visible": "ON",
+            "hidden": "OFF"
+        },
+        "value": "visible",
+        "group": "♥ Sixth Bubble Settings ♥"
+    }
+}

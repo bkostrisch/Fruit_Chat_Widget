@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: none;
+    margin: none;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+body {
+    font-family: 'Didact Gothic', sans-serif;
+    line-height: 20px;
+    font-weight: 800;
+    -webkit-mask-image: -webkit-gradient(linear, left 16%, left top, from(rgba(0,0,0,1)), to(rgba(0,0,0,0)));
+    animation: fadeInUp 1s ease forwards, fadeOut 0.5s ease {message_hide_delay} forwards;
+    -webkit-animation: fadeInUp 1s ease forwards, fadeOut 0.5s ease {message_hide_delay} forwards;
+}
+
+.colon {
+    display: inline;
+}
+
+#log {
+    display: table;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0 10px 10px ;
+    width: 100%;
+    table-layout: fixed;
+}
+
+#log>div {
+    overflow: hidden;
+    text-align: left;
+}
+
+#log>div:nth-child(2n){
+        text-align: right;
+}
+
+#log>div.deleted {
+    visibility: hidden;
+}
+
+#log .emote {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding: 0.4em 0.2em;
+    position: relative;
+    display: inline;
+}
+
+#log .emote img {
+    display: inline;
+    height: 1em;
+    opacity: 0;
+}
+#log .message,#log .meta {
+    vertical-align: top;
+    display: inline-table;
+}
+.badge {
+    border: 1px;
+    border-radius: 2px;
+    display: inline-block;  	
+    position: relative;
+    height: 1em;
+    margin-right: 2px;
+    top: -1px;
+    vertical-align: middle;
+}
+
+#log .meta {    
+    text-align: left;
+    margin-top: 0px;
+    margin-left: 5px; 	
+    color: {firstUserColor};
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: inline-block;
+    padding: 3px 10px 5px 10px;
+    background-color: {firstUserBackground};
+    border-radius: 5px;
+    bottom: -10px;
+    position: relative;
+    z-index: 4;
+    animation: scale-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.2s both;
+}
+
+#log>div:nth-child(6n+1)>.meta{
+    background-color: {firstUserBackground};
+    color: {firstUserColor};
+    margin-left: 15px; 	
+}
+
+#log>div:nth-child(6n+2)>.meta{
+    background-color: {secondUserBackground};
+    color: {secondUserColor};
+    margin-right: 15px; 	
+}
+
+#log>div:nth-child(6n+3)>.meta{
+    background-color: {thirdUserBackground};
+    color: {thirdUserColor};
+    margin-left: 15px; 	
+}
+
+#log>div:nth-child(6n+4)>.meta{
+    background-color: {fourthUserBackground};
+    color: {fourthUserColor};
+    margin-right: 15px; 	
+}
+
+#log>div:nth-child(6n+5)>.meta{
+    background-color: {fifthUserBackground};
+    color: {fifithUserColor};
+    margin-left: 15px; 	
+}
+
+#log>div:nth-child(6n+6)>.meta{
+    background-color: {sixthUserBackground};
+    color: {sixthUserColor};
+    margin-right: 15px; 	
+}
+
+
+#log .message {
+    word-wrap: break-word;      
+    width: 100%;
+    word-break: break-word;
+    padding: 15px 20px;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    min-width: 300px;
+    position: relative;
+    display:inline-block;
+    font-size: 18px;
+    background-color: {firstMessageBackground};
+    border-radius:10px;	
+    color: {firstMessageColor};
+    text-align: center;
+    animation: scale-in-br 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both; 
+}
+
+#log>div:nth-child(6n+1)>.mess>.inline>.message{
+    background-color: {firstMessageBackground};
+    color: {firstMessageColor};
+}
+
+#log>div:nth-child(6n+2)>.mess>.inline>.message{
+    background-color: {secondMessageBackground};
+    color: {secondMessageColor};
+}
+
+#log>div:nth-child(6n+3)>.mess>.inline>.message{
+    background-color: {thirdMessageBackground};
+    color: {thirdMessageColor};
+}
+
+#log>div:nth-child(6n+4)>.mess>.inline>.message{
+    background-color: {fourthMessageBackground};
+    color: {fourthMessageColor};
+}
+
+#log>div:nth-child(6n+5)>.mess>.inline>.message{
+    background-color: {fifthMessageBackground};
+    color: {fifthMessageColor};
+}
+
+#log>div:nth-child(6n+6)>.mess>.inline>.message{
+    background-color: {sixthMessageBackground};
+    color: {sixthMessageColor};
+}
+
+.mess {
+
+display: block;
+
+}
+
+.inline {
+  
+display: inline-block;
+margin-right: 10px;
+margin-left: 10px;
+
+
+}
+
+.name {
+    font-size: 16px;
+    letter-spacing: 2px;  	
+}
+
+.flex-display {
+
+
+}
+
+.fruits {
+
+  background-image: url("https://i.ibb.co/k24CksY/Grape.png");
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  float: right;
+  margin-top: auto!important;
+  margin-top: -32px!important;
+  margin-right: -10px;
+  position: relative;
+  z-index: 4!important;
+  animation: scale-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.2s both;
+
+}
+
+#log>div:nth-child(6n+1)>.mess>.inline>.fruits{  
+  background-image: url("{firstBubbleFruit}"); 
+  visibility: {firstFruitUsage};
+
+}
+
+#log>div:nth-child(6n+2)>.mess>.inline>.fruits{  
+  background-image: url("{secondBubbleFruit}");  
+  float: left!important;  
+  margin-left: -10px;
+  animation: scale-fruits 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.2s both;
+  visibility: {secondFruitUsage};
+}
+
+#log>div:nth-child(6n+3)>.mess>.inline>.fruits{  
+  background-image: url("{thirdBubbleFruit}");  
+  visibility: {thirdFruitUsage};
+ 
+}
+
+#log>div:nth-child(6n+4)>.mess>.inline>.fruits{  
+  background-image: url("{fourthBubbleFruit}");
+  float: left!important;
+  margin-left: -10px;
+  animation: scale-fruits 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.2s both;
+  visibility: {fourthFruitUsage};
+}
+
+#log>div:nth-child(6n+5)>.mess>.inline>.fruits{  
+  background-image: url("{fifthBubbleFruit}"); 
+  visibility: {fifthFruitUsage}; 
+
+}
+
+#log>div:nth-child(6n+6)>.mess>.inline>.fruits{  
+  background-image: url("{sixthBubbleFruit}");
+  float: left!important;
+  margin-left: -10px;
+  animation: scale-fruits 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.2s both;
+  visibility: {sixthFruitUsage};
+}
+
+
+:root {
+
+    /* First Fruit */
+    
+        --firstUserColor: {firstUserColor};
+        --firstUserBackground: {firstUserBackground};
+        --firstMessageColor: {firstMessageColor};
+        --firstMessageBackground: {firstMessageBackground};
+        --firstBubbleFruit: {firstBubbleFruit};
+        --firstFruitUsage: {firstFruitUsage};
+
+    /* Second Fruit */
+
+        --secondUserColor: {secondUserColor};
+        --secondUserBackground: {secondUserBackground};
+        --secondMessageColor: {secondMessageColor};
+        --secondMessageBackground: {secondMessageBackground};
+        --secondBubbleFruit: {secondBubbleFruit};
+        --secondFruitUsage: {secondFruitUsage};
+
+    /* Third Fruit */
+
+        --thirdUserColor: {thirdUserColor};
+        --thirdUserBackground: {thirdUserBackground};
+        --thirdMessageColor: {thirdMessageColor};
+        --thirdMessageBackground: {thirdMessageBackground};
+        --thirdBubbleFruit: {thirdBubbleFruit};
+        --thirdFruitUsage: {thirdFruitUsage};
+
+    /* Fourth Fruit */
+
+        --fourthUserColor: {fourthUserColor};
+        --fourthUserBackground: {fourthUserBackground};
+        --fourthMessageColor: {fourthMessageColor};
+        --fourthMessageBackground: {fourthMessageBackground};
+        --fourthBubbleFruit: {fourthBubbleFruit};
+        --fourthFruitUsage: {fourthFruitUsage};
+
+    /* Fifth Fruit */
+
+        --fifthUserColor: {fifthUserColor};
+        --fifthUserBackground: {fifthUserBackground};
+        --fifthMessageColor: {fifthMessageColor};
+        --fifithMessageBackground: {fifithMessageBackground};
+        --fifthBubbleFruit: {fifthBubbleFruit};
+        --fifthFruitUsage: {fifthFruitUsage};
+
+    /* Sixth Fruit */
+
+        --sixthUserColor: {sixthUserColor};
+        --sixthUserBackground: {sixthUserBackground};
+        --sixthMessageColor: {sixthMessageColor};
+        --sixthMessageBackground: {sixthMessageBackground};
+        --sixthBubbleFruit: {sixthBubbleFruit};
+        --sixthFruitUsage: {sixthFruitUsage};
+
+
+}
+
+
+
+    @keyframes scale-in-bottom {
+    0% {
+        transform: scale(0);
+        transform-origin: 50% 100%;
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        transform-origin: 50% 100%;
+        opacity: 1;
+    }
+    }
+
+    @keyframes scale-fruits {
+        0% {
+            transform: scale(0);
+            transform-origin: 50% 100%;
+            opacity: 1;
+        }
+        100% {
+            transform: scale(1);
+            transform-origin: 50% 100%;
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+            opacity: 1;
+        }
+        }
+    
+    @keyframes scale-in-center {
+    0% {
+        transform: scale(0);
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    }
+    
+    @keyframes scale-in-bl {
+    0% {
+        transform: scale(0);
+        transform-origin: 0% 100%;
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        transform-origin: 0% 100%;
+        opacity: 1;
+    }
+    }
+    
+    @keyframes scale-in-br {
+    0% {
+        transform: scale(0);
+        transform-origin: 100% 100%;
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1);
+        transform-origin: 100% 100%;
+        opacity: 1;
+    }
+    }
+    
